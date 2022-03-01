@@ -8,5 +8,5 @@ config = {
     
     esChatCommand = 'es',
     esAceRequired = true,  --checks for ace perms for esChat set to false for public cop/ems
-    esAceperm = 'eschat',  --example add_ace group.police eschat allow
+    esAcePerm = 'eschat',  --example add_ace group.police eschat allow
 }
