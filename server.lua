@@ -35,7 +35,7 @@ end)
 
 
 RegisterCommand(config.esChatCommand, function(source, args)
-	if IsPlayerAceAllowed(source, config.esAceperm) then
+	if IsPlayerAceAllowed(source, config.esAcePerm) then
 	local msg = table.concat(args, ' ')
 	local name = GetPlayerName(source)..":"
 
