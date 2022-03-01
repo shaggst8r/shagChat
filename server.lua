@@ -12,7 +12,7 @@ AddEventHandler('playerLoaded', function()
 	if config.esAceRequired == false then 
 		table.insert(es, source)
 	else
-		if IsPlayerAceAllowed(source, config.esAceperm) then
+		if IsPlayerAceAllowed(source, config.esAcePerm) then
 			table.insert(es, source)
 		end
 	end
